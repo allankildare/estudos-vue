@@ -3,6 +3,8 @@
   <span>Se é verdade ou não, veremos depois ;)</span>
   <br />
   <input type="text" id="loveVue" v-model="loveVue" />
+  
+  <!-- o bind pode ser feito usando v-bind ou apenas : (dois pontos) -->
   <button :class="[loveVue === 'Eu amo Vue' ? 'green' : '']">
     {{
       loveVue === 'Eu amo Vue'
