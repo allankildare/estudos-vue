@@ -1,26 +1,27 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <vFor />
+    <vModel />
+    <vIf />
+    <vBind />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import vFor from './components/directives/vFor.vue'
+import vModel from './components/directives/vModel.vue'
+import vIf from './components/directives/vIf.vue'
+import vBind from './components/directives/vBind.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    vFor,
+    vModel,
+    vIf,
+    vBind
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
