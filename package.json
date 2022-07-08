@@ -1,6 +1,10 @@
 {
-  "name": "hello-world-vue",
+  "name": "vue-studies-project",
   "version": "0.1.0",
+  "author": {
+    "name": "Allan Kildare",
+    "url": "https://allankildare.github.io/"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
