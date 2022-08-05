@@ -1,0 +1,24 @@
+:root {
+  font-family: "Dosis", sans-serif;
+}
+
+input {
+  border: 1px solid rgba(10,10,10,.4);
+  border-radius: 6px;
+}
+button {
+  background-color: rgb(209, 209, 209);
+  min-width: 30px;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.study-item {
+  border: 1px solid rgba(118, 29, 221, .6);
+  padding: 1rem;
+  margin-bottom: 8px;
+}
+
+.study-item:last-child {
+  margin-bottom: 0;
+}
