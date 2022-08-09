@@ -97,7 +97,7 @@ export default {
         title: this.newTitle,
         label: this.newLabel
       }
-      this.posts.push(addedPost)
+      this.posts.unshift(addedPost)
       this.newAuthor = ''
       this.newTitle = ''
       this.newLabel = ''
