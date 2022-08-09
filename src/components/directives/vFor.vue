@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="study-item">
     <ul>
       <li v-for="(item, index) in items" :key="index">
         {{ item }}

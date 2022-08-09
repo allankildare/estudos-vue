@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="study-item">
     <!-- use v-on ou simplesmente @ -->
     <button v-on:click="counter > 0 ? (counter -= 1) : 0">-</button>
     <span>Quantidade: {{ counter }}</span>

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="study-item">
     <h3>Digite aqui:</h3>
     <input type="text" v-model="message">
     <br>

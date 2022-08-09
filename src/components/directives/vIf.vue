@@ -1,4 +1,5 @@
 <template>
+<div class="study-item">
     <h1>Você gosta de café?</h1>
     <input v-model="coffee" value="sim" type="radio" id="sim" />
     <label for="sim">Simm!!</label>
@@ -8,6 +9,7 @@
 
     <p v-if="coffee === 'sim'">Boaa, é muuito bom né?</p>
     <p v-else-if="coffee === 'nao'">Como você consegue?? 😩</p>
+</div>
 </template>
 
 <script>
