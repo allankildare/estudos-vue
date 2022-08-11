@@ -11,6 +11,7 @@
     <methods-vue />
     <comments />
     <computedProperties />
+    <watchers />
     <computedPropsExercise />
   </div>
 </template>
@@ -30,6 +31,7 @@ import vText from './components/directives/vText.vue'
 import methodsVue from './components/methods-computed-props-and-watchers/methods.vue'
 import comments from './components/methods-computed-props-and-watchers/comments.vue'
 import computedProperties from './components/methods-computed-props-and-watchers/computedProperties.vue'
+import watchers from './components/methods-computed-props-and-watchers/watchers.vue'
 
 // exercicios
 import computedPropsExercise from './components/exercises/computedPropsExercise.vue'
@@ -48,7 +50,8 @@ export default {
     methodsVue,
     comments,
     computedProperties,
-    computedPropsExercise
+    computedPropsExercise,
+    watchers
   }
 }
 </script>
